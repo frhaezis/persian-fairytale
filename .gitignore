@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Build outputs
+build/
+dist/
+*.log
+
+# Local game data
+artifacts/
+saves/
+*.sav
+
+# Private keys
+*.pem
+*.key
+*.p12
