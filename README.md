@@ -6,6 +6,31 @@ Persian Fairytale is an illustrated educational adventure that combines a fantas
 
 Explore four gardens, complete 40 learning missions, experiment with real neural networks, and develop a practical understanding of modern AI systems.
 
+
+## 📸 Screenshots
+
+### Explore a Persian-Inspired World
+
+![Persian Fairytale game world](screenshots/01-game-world.png)
+
+### Interactive Machine Learning Lessons
+
+![Interactive ML lesson](screenshots/02-learning-mission.png)
+
+### Hands-on PyTorch Exercises
+
+![PyTorch coding exercise with successful tests](screenshots/03-pytorch-exercise.png)
+
+### Neural Network Training
+
+![Neural network training with validation results](screenshots/04-neural-network-training.png)
+
+*Screenshots from the current Russian-language edition. English localization and responsive UI improvements are planned.*
+
+---
+
+
+
 ## ✨ Features
 
 - **40 learning missions** across four acts, from ML fundamentals to modern language models and agentic systems.
