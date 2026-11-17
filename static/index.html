@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#132a30"><title>persian fairytale. V2</title><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23132a30'/%3E%3Cpath d='M32 8L48 32L32 56L16 32Z' fill='%23d3b373'/%3E%3C/svg%3E"><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="#" id="home"><span class="brand-mark">✧</span><span>persian fairytale. V2<small>САД ТОЧНЫХ ЖЕЛАНИЙ</small></span></a><div class="topnav"><button id="journalBtn">Путевой дневник <kbd>J</kbd></button><button id="pauseBtn">Пауза <kbd>Esc</kbd></button><span id="saveStatus" role="status">Загрузка…</span></div></header>
+<main id="app">
+<aside class="sidebar"><div class="eyebrow">ВАШЕ ПУТЕШЕСТВИЕ</div><h1 id="actTitle">Сад точных<br>желаний</h1><p class="muted" id="place">Четыре главы. Одно обещание.</p><div id="actNav" class="act-nav"></div><div class="sidebar-rule"></div><div class="eyebrow">ТЕКУЩАЯ НИТЬ</div><h2 id="missionTitle">Ожидание каравана</h2><p id="objective"></p><button class="primary small" id="navigateBtn">К месту задания <span>→</span></button><div id="progressText" class="muted progress-text"></div><div class="progress-track"><i id="progressBar"></i></div><div class="sidebar-bottom"><span class="tiny-sun">☼</span><p>Понимание приходит<br>через действие.</p></div></aside>
+<section class="world-shell"><div class="world-top"><span id="worldLabel">ВОСТОЧНЫЙ САД</span><span class="world-weather">СВОБОДНЫЙ ТЕМП</span></div><div class="canvas-wrap"><canvas id="world" aria-label="Игровой мир. WASD или стрелки для движения, E для разговора." tabindex="0"></canvas><div id="worldToast" role="status"></div><div id="chapterCard" hidden></div></div><div class="world-bottom"><span><kbd>W A S D</kbd> движение <i>·</i> <kbd>E</kbd> взаимодействие <i>·</i> щелчок — идти</span><span id="activeTime">0 мин практики</span></div></section>
+</main>
+<div id="overlay" hidden><section id="dialog" role="dialog" aria-modal="true" aria-labelledby="dialogTitle"><button id="closeDialog" class="close" aria-label="Закрыть">×</button><div id="dialogBody"></div></section></div>
+<div id="notice" role="alert" hidden></div>
+<script type="module" src="/app.js"></script>
+</body></html>

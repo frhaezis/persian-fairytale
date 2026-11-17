@@ -1,0 +1,4 @@
+# Install explicitly with INSTALL_DEPENDENCIES.bat.
+# CPU wheels: https://download.pytorch.org/whl/cpu
+torch==2.8.0
+numpy==2.2.6

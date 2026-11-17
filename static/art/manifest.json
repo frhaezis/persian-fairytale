@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "scenes": {
+    "1": {
+      "title": "Сад отражений",
+      "src": "/art/persian-scenes.png",
+      "position": "0% 0%",
+      "size": "200% 200%",
+      "atlas": {
+        "cols": 2,
+        "rows": 2,
+        "col": 0,
+        "row": 0
+      }
+    },
+    "2": {
+      "title": "Мастерская под дождём",
+      "src": "/art/persian-scenes.png",
+      "position": "100% 0%",
+      "size": "200% 200%",
+      "atlas": {
+        "cols": 2,
+        "rows": 2,
+        "col": 1,
+        "row": 0
+      }
+    },
+    "3": {
+      "title": "Ночная обсерватория",
+      "src": "/art/persian-scenes.png",
+      "position": "0% 100%",
+      "size": "200% 200%",
+      "atlas": {
+        "cols": 2,
+        "rows": 2,
+        "col": 0,
+        "row": 1
+      }
+    },
+    "4": {
+      "title": "Терраса над городом",
+      "src": "/art/persian-scenes.png",
+      "position": "100% 100%",
+      "size": "200% 200%",
+      "atlas": {
+        "cols": 2,
+        "rows": 2,
+        "col": 1,
+        "row": 1
+      }
+    }
+  },
+  "portraits": {
+    "Лейла": {
+      "src": "/art/persian-portraits.png",
+      "position": "0% 0%",
+      "size": "200% 200%",
+      "atlas": {
+        "cols": 2,
+        "rows": 2,
+        "col": 0,
+        "row": 0
+      }
+    },
+    "Сафар": {
+      "src": "/art/persian-portraits.png",
+      "position": "100% 0%",
+      "size": "200% 200%",
+      "atlas": {
+        "cols": 2,
+        "rows": 2,
+        "col": 1,
+        "row": 0
+      }
+    },
+    "Нур": {
+      "src": "/art/persian-portraits.png",
+      "position": "0% 100%",
+      "size": "200% 200%",
+      "atlas": {
+        "cols": 2,
+        "rows": 2,
+        "col": 0,
+        "row": 1
+      }
+    },
+    "Лейла_улыбка": {
+      "src": "/art/persian-portraits.png",
+      "position": "100% 100%",
+      "size": "200% 200%",
+      "atlas": {
+        "cols": 2,
+        "rows": 2,
+        "col": 1,
+        "row": 1
+      }
+    }
+  }
+}

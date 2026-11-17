@@ -1,0 +1,4 @@
+persian fairytale. V2.
+Version 2.0
+2026-11-16
+Illustrated Persian garden; actual Python/PyTorch; optional local agent loop.
